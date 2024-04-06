@@ -4,13 +4,11 @@ import com.example.carsapi.dto.CarDto;
 import com.example.carsapi.model.CarModel;
 import com.example.carsapi.repository.CarRepository;
 import com.example.carsapi.utils.CarMapper;
-import com.example.carsapi.utils.CarNotFoundException;
+import com.example.carsapi.utils.error.CarNotFoundException;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
