@@ -3,7 +3,7 @@ package com.example.carsapi.controller;
 import com.example.carsapi.dto.CarDto;
 import com.example.carsapi.model.CarModel;
 import com.example.carsapi.service.CarService;
-import com.example.carsapi.utils.CarNotFoundException;
+import com.example.carsapi.utils.error.CarNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
